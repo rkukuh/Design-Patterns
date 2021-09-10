@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		4AD17DDD26EAFA18007EB6BD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD17DDC26EAFA18007EB6BD /* main.swift */; };
+		4AD17DE526EAFB4E007EB6BD /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD17DE426EAFB4E007EB6BD /* Student.swift */; };
+		4AD17DE726EAFB7B007EB6BD /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD17DE626EAFB7B007EB6BD /* Storage.swift */; };
+		4AD17DE926EAFBBE007EB6BD /* FileStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD17DE826EAFBBE007EB6BD /* FileStorage.swift */; };
+		4AD17DEB26EAFD9B007EB6BD /* DatabaseStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD17DEA26EAFD9B007EB6BD /* DatabaseStorage.swift */; };
+		4AD17DED26EAFDED007EB6BD /* CloudStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD17DEC26EAFDED007EB6BD /* CloudStorage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,11 @@
 /* Begin PBXFileReference section */
 		4AD17DD926EAFA18007EB6BD /* Design Patterns */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Design Patterns"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AD17DDC26EAFA18007EB6BD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		4AD17DE426EAFB4E007EB6BD /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		4AD17DE626EAFB7B007EB6BD /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		4AD17DE826EAFBBE007EB6BD /* FileStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileStorage.swift; sourceTree = "<group>"; };
+		4AD17DEA26EAFD9B007EB6BD /* DatabaseStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseStorage.swift; sourceTree = "<group>"; };
+		4AD17DEC26EAFDED007EB6BD /* CloudStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudStorage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +67,22 @@
 		4AD17DDB26EAFA18007EB6BD /* Design Patterns */ = {
 			isa = PBXGroup;
 			children = (
+				4AD17DE326EAFA25007EB6BD /* Strategy Pattern */,
 				4AD17DDC26EAFA18007EB6BD /* main.swift */,
 			);
 			path = "Design Patterns";
+			sourceTree = "<group>";
+		};
+		4AD17DE326EAFA25007EB6BD /* Strategy Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				4AD17DE426EAFB4E007EB6BD /* Student.swift */,
+				4AD17DE626EAFB7B007EB6BD /* Storage.swift */,
+				4AD17DE826EAFBBE007EB6BD /* FileStorage.swift */,
+				4AD17DEA26EAFD9B007EB6BD /* DatabaseStorage.swift */,
+				4AD17DEC26EAFDED007EB6BD /* CloudStorage.swift */,
+			);
+			path = "Strategy Pattern";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +143,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AD17DDD26EAFA18007EB6BD /* main.swift in Sources */,
+				4AD17DE926EAFBBE007EB6BD /* FileStorage.swift in Sources */,
+				4AD17DE526EAFB4E007EB6BD /* Student.swift in Sources */,
+				4AD17DED26EAFDED007EB6BD /* CloudStorage.swift in Sources */,
+				4AD17DE726EAFB7B007EB6BD /* Storage.swift in Sources */,
+				4AD17DEB26EAFD9B007EB6BD /* DatabaseStorage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
