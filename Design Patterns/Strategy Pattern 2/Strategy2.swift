@@ -7,7 +7,7 @@
 
 import Foundation
 
-func strategyPattern2() {
+func strategy2() {
     print("---------- Strategy Pattern #2 ----------")
     
     var student1 = Student()

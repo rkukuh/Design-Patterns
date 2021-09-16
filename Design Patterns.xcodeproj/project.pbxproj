@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4A87E51226F2E7A50028F142 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A87E51126F2E7A50028F142 /* Helper.swift */; };
-		4A87E51426F2EC7B0028F142 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A87E51326F2EC7B0028F142 /* Main.swift */; };
+		4A87E51426F2EC7B0028F142 /* Strategy2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A87E51326F2EC7B0028F142 /* Strategy2.swift */; };
 		4A87E51726F2F6D30028F142 /* StrategyProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A87E51626F2F6D30028F142 /* StrategyProtocol.swift */; };
 		4A87E51926F2F7150028F142 /* StrategyConcreteA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A87E51826F2F7150028F142 /* StrategyConcreteA.swift */; };
 		4A87E51B26F2F74A0028F142 /* StrategyConcreteB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A87E51A26F2F74A0028F142 /* StrategyConcreteB.swift */; };
@@ -36,7 +36,7 @@
 
 /* Begin PBXFileReference section */
 		4A87E51126F2E7A50028F142 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
-		4A87E51326F2EC7B0028F142 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		4A87E51326F2EC7B0028F142 /* Strategy2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strategy2.swift; sourceTree = "<group>"; };
 		4A87E51626F2F6D30028F142 /* StrategyProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrategyProtocol.swift; sourceTree = "<group>"; };
 		4A87E51826F2F7150028F142 /* StrategyConcreteA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrategyConcreteA.swift; sourceTree = "<group>"; };
 		4A87E51A26F2F74A0028F142 /* StrategyConcreteB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrategyConcreteB.swift; sourceTree = "<group>"; };
@@ -104,12 +104,12 @@
 		4AD17DE326EAFA25007EB6BD /* Strategy Pattern 2 */ = {
 			isa = PBXGroup;
 			children = (
-				4A87E51326F2EC7B0028F142 /* Main.swift */,
-				4AD17DE426EAFB4E007EB6BD /* Student.swift */,
 				4AD17DE626EAFB7B007EB6BD /* Storage.swift */,
 				4AD17DE826EAFBBE007EB6BD /* FileStorage.swift */,
 				4AD17DEA26EAFD9B007EB6BD /* DatabaseStorage.swift */,
 				4AD17DEC26EAFDED007EB6BD /* CloudStorage.swift */,
+				4AD17DE426EAFB4E007EB6BD /* Student.swift */,
+				4A87E51326F2EC7B0028F142 /* Strategy2.swift */,
 			);
 			path = "Strategy Pattern 2";
 			sourceTree = "<group>";
@@ -173,7 +173,7 @@
 			files = (
 				4AD17DDD26EAFA18007EB6BD /* main.swift in Sources */,
 				4A87E51226F2E7A50028F142 /* Helper.swift in Sources */,
-				4A87E51426F2EC7B0028F142 /* Main.swift in Sources */,
+				4A87E51426F2EC7B0028F142 /* Strategy2.swift in Sources */,
 				4A87E51926F2F7150028F142 /* StrategyConcreteA.swift in Sources */,
 				4A87E51F26F2F8470028F142 /* Strategy1.swift in Sources */,
 				4AD17DE926EAFBBE007EB6BD /* FileStorage.swift in Sources */,

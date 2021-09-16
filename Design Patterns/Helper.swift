@@ -15,6 +15,6 @@ enum DesignPattern {
 func run(_ pattern: DesignPattern) {
     switch pattern {
     case .StrategyPattern_1: strategy1()
-    case .StrategyPattern_2: strategyPattern2()
+    case .StrategyPattern_2: strategy2()
     }
 }
