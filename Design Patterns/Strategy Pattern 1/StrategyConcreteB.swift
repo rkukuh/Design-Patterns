@@ -9,7 +9,7 @@ import Foundation
 
 class StrategyConcreteB: StrategyProtocol {
     
-    func doAlgorithm<T>(_ data: [T]) -> [T] where T : Comparable {
+    func doSorting<T>(_ data: [T]) -> [T] where T : Comparable {
         return data.sorted(by: >)
     }
 }

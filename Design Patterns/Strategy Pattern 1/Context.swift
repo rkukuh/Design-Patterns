@@ -20,7 +20,7 @@ class Context {
     }
     
     func doSomeLogic() {
-        let result = strategy.doAlgorithm(["c", "b", "a", "e", "d"])
+        let result = strategy.doSorting(["c", "b", "a", "e", "d"])
         
         print(result.joined(separator: ", "))
     }

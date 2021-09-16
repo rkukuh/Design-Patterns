@@ -8,5 +8,5 @@
 import Foundation
 
 protocol StrategyProtocol {
-    func doAlgorithm<T: Comparable>(_ data: [T]) -> [T]
+    func doSorting<T: Comparable>(_ data: [T]) -> [T]
 }
