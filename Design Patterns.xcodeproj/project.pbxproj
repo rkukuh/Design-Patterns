@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A87E51226F2E7A50028F142 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A87E51126F2E7A50028F142 /* Helper.swift */; };
 		4AD17DDD26EAFA18007EB6BD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD17DDC26EAFA18007EB6BD /* main.swift */; };
 		4AD17DE526EAFB4E007EB6BD /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD17DE426EAFB4E007EB6BD /* Student.swift */; };
 		4AD17DE726EAFB7B007EB6BD /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD17DE626EAFB7B007EB6BD /* Storage.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4A87E51126F2E7A50028F142 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		4AD17DD926EAFA18007EB6BD /* Design Patterns */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Design Patterns"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AD17DDC26EAFA18007EB6BD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		4AD17DE426EAFB4E007EB6BD /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				4AD17DE326EAFA25007EB6BD /* Strategy Pattern */,
+				4A87E51126F2E7A50028F142 /* Helper.swift */,
 				4AD17DDC26EAFA18007EB6BD /* main.swift */,
 			);
 			path = "Design Patterns";
@@ -143,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AD17DDD26EAFA18007EB6BD /* main.swift in Sources */,
+				4A87E51226F2E7A50028F142 /* Helper.swift in Sources */,
 				4AD17DE926EAFBBE007EB6BD /* FileStorage.swift in Sources */,
 				4AD17DE526EAFB4E007EB6BD /* Student.swift in Sources */,
 				4AD17DED26EAFDED007EB6BD /* CloudStorage.swift in Sources */,
