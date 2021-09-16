@@ -31,6 +31,11 @@
 		4A87E54226F32A7A0028F142 /* Duck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A87E54126F32A7A0028F142 /* Duck.swift */; };
 		4A87E54426F32B800028F142 /* MountainDuck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A87E54326F32B800028F142 /* MountainDuck.swift */; };
 		4A87E54626F32D420028F142 /* RubberDuck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A87E54526F32D420028F142 /* RubberDuck.swift */; };
+		4A87E54B26F330A20028F142 /* Observer2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A87E54A26F330A20028F142 /* Observer2.swift */; };
+		4A87E54D26F331510028F142 /* Publisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A87E54C26F331510028F142 /* Publisher.swift */; };
+		4A87E54F26F331A60028F142 /* Subscriber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A87E54E26F331A60028F142 /* Subscriber.swift */; };
+		4A87E55126F331EB0028F142 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A87E55026F331EB0028F142 /* Customer.swift */; };
+		4A87E55326F3328B0028F142 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A87E55226F3328B0028F142 /* Store.swift */; };
 		4AD17DDD26EAFA18007EB6BD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD17DDC26EAFA18007EB6BD /* main.swift */; };
 		4AD17DE526EAFB4E007EB6BD /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD17DE426EAFB4E007EB6BD /* Student.swift */; };
 		4AD17DE726EAFB7B007EB6BD /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD17DE626EAFB7B007EB6BD /* Storage.swift */; };
@@ -76,6 +81,11 @@
 		4A87E54126F32A7A0028F142 /* Duck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Duck.swift; sourceTree = "<group>"; };
 		4A87E54326F32B800028F142 /* MountainDuck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MountainDuck.swift; sourceTree = "<group>"; };
 		4A87E54526F32D420028F142 /* RubberDuck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RubberDuck.swift; sourceTree = "<group>"; };
+		4A87E54A26F330A20028F142 /* Observer2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observer2.swift; sourceTree = "<group>"; };
+		4A87E54C26F331510028F142 /* Publisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Publisher.swift; sourceTree = "<group>"; };
+		4A87E54E26F331A60028F142 /* Subscriber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subscriber.swift; sourceTree = "<group>"; };
+		4A87E55026F331EB0028F142 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		4A87E55226F3328B0028F142 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 		4AD17DD926EAFA18007EB6BD /* Design Patterns */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Design Patterns"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AD17DDC26EAFA18007EB6BD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		4AD17DE426EAFB4E007EB6BD /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
@@ -166,6 +176,26 @@
 			path = "Strategy Pattern";
 			sourceTree = "<group>";
 		};
+		4A87E54826F330760028F142 /* Observer Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				4A87E54926F330890028F142 /* Observer Pattern 2 */,
+			);
+			path = "Observer Pattern";
+			sourceTree = "<group>";
+		};
+		4A87E54926F330890028F142 /* Observer Pattern 2 */ = {
+			isa = PBXGroup;
+			children = (
+				4A87E54E26F331A60028F142 /* Subscriber.swift */,
+				4A87E54C26F331510028F142 /* Publisher.swift */,
+				4A87E55026F331EB0028F142 /* Customer.swift */,
+				4A87E55226F3328B0028F142 /* Store.swift */,
+				4A87E54A26F330A20028F142 /* Observer2.swift */,
+			);
+			path = "Observer Pattern 2";
+			sourceTree = "<group>";
+		};
 		4AD17DD026EAFA18007EB6BD = {
 			isa = PBXGroup;
 			children = (
@@ -185,9 +215,10 @@
 		4AD17DDB26EAFA18007EB6BD /* Design Patterns */ = {
 			isa = PBXGroup;
 			children = (
-				4A87E54726F32F9F0028F142 /* Strategy Pattern */,
-				4A87E51126F2E7A50028F142 /* Helper.swift */,
 				4AD17DDC26EAFA18007EB6BD /* main.swift */,
+				4A87E51126F2E7A50028F142 /* Helper.swift */,
+				4A87E54726F32F9F0028F142 /* Strategy Pattern */,
+				4A87E54826F330760028F142 /* Observer Pattern */,
 			);
 			path = "Design Patterns";
 			sourceTree = "<group>";
@@ -277,20 +308,25 @@
 				4A87E54226F32A7A0028F142 /* Duck.swift in Sources */,
 				4AD17DE926EAFBBE007EB6BD /* FileStorage.swift in Sources */,
 				4A87E52A26F303030028F142 /* Strategy3.swift in Sources */,
+				4A87E54F26F331A60028F142 /* Subscriber.swift in Sources */,
 				4A87E52426F301F10028F142 /* StrengthAttack.swift in Sources */,
 				4A87E54626F32D420028F142 /* RubberDuck.swift in Sources */,
+				4A87E55326F3328B0028F142 /* Store.swift in Sources */,
 				4AD17DE526EAFB4E007EB6BD /* Student.swift in Sources */,
 				4A87E51726F2F6D30028F142 /* StrategyProtocol.swift in Sources */,
 				4AD17DED26EAFDED007EB6BD /* CloudStorage.swift in Sources */,
 				4A87E52F26F324170028F142 /* QuackStrategy.swift in Sources */,
 				4AD17DE726EAFB7B007EB6BD /* Storage.swift in Sources */,
 				4A87E53E26F32A230028F142 /* CanNotQuack.swift in Sources */,
+				4A87E54B26F330A20028F142 /* Observer2.swift in Sources */,
+				4A87E54D26F331510028F142 /* Publisher.swift in Sources */,
 				4A87E53B26F329E30028F142 /* FastSwim.swift in Sources */,
 				4A87E51D26F2F7930028F142 /* Context.swift in Sources */,
 				4A87E54426F32B800028F142 /* MountainDuck.swift in Sources */,
 				4A87E51B26F2F74A0028F142 /* StrategyConcreteB.swift in Sources */,
 				4A87E52826F3026A0028F142 /* Player.swift in Sources */,
 				4A87E54026F32A480028F142 /* CanNotSwim.swift in Sources */,
+				4A87E55126F331EB0028F142 /* Customer.swift in Sources */,
 				4AD17DEB26EAFD9B007EB6BD /* DatabaseStorage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
