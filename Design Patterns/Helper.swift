@@ -7,11 +7,13 @@
 
 import Foundation
 
-func run(_ description: String, hide: Bool = false, action: () -> ()) {
+enum DesignPattern {
+    case StrategyPattern
+}
+
+func run(_ pattern: DesignPattern) {
     
-    if !hide {
-        print("---------- \(description) ----------")
-        action()
-        print()
+    switch pattern {
+        case .StrategyPattern: strategyPattern()
     }
 }
