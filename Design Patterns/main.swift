@@ -10,3 +10,4 @@ import Foundation
 run(.StrategyPattern_1)
 run(.StrategyPattern_2)
 run(.StrategyPattern_3)
+run(.StrategyPattern_4)
