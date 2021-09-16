@@ -155,6 +155,17 @@
 			name = Swim;
 			sourceTree = "<group>";
 		};
+		4A87E54726F32F9F0028F142 /* Strategy Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				4A87E51526F2F1760028F142 /* Strategy Pattern 1 */,
+				4AD17DE326EAFA25007EB6BD /* Strategy Pattern 2 */,
+				4A87E52026F301AE0028F142 /* Strategy Pattern 3 */,
+				4A87E52B26F322150028F142 /* Strategy Pattern 4 */,
+			);
+			path = "Strategy Pattern";
+			sourceTree = "<group>";
+		};
 		4AD17DD026EAFA18007EB6BD = {
 			isa = PBXGroup;
 			children = (
@@ -174,10 +185,7 @@
 		4AD17DDB26EAFA18007EB6BD /* Design Patterns */ = {
 			isa = PBXGroup;
 			children = (
-				4A87E51526F2F1760028F142 /* Strategy Pattern 1 */,
-				4AD17DE326EAFA25007EB6BD /* Strategy Pattern 2 */,
-				4A87E52026F301AE0028F142 /* Strategy Pattern 3 */,
-				4A87E52B26F322150028F142 /* Strategy Pattern 4 */,
+				4A87E54726F32F9F0028F142 /* Strategy Pattern */,
 				4A87E51126F2E7A50028F142 /* Helper.swift */,
 				4AD17DDC26EAFA18007EB6BD /* main.swift */,
 			);
