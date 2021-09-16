@@ -10,11 +10,13 @@ import Foundation
 enum DesignPattern {
     case StrategyPattern_1
     case StrategyPattern_2
+    case StrategyPattern_3
 }
 
 func run(_ pattern: DesignPattern) {
     switch pattern {
     case .StrategyPattern_1: strategy1()
     case .StrategyPattern_2: strategy2()
+    case .StrategyPattern_3: strategy3()
     }
 }

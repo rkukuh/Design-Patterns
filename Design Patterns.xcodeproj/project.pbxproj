@@ -14,6 +14,11 @@
 		4A87E51B26F2F74A0028F142 /* StrategyConcreteB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A87E51A26F2F74A0028F142 /* StrategyConcreteB.swift */; };
 		4A87E51D26F2F7930028F142 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A87E51C26F2F7930028F142 /* Context.swift */; };
 		4A87E51F26F2F8470028F142 /* Strategy1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A87E51E26F2F8470028F142 /* Strategy1.swift */; };
+		4A87E52226F301C90028F142 /* AttackStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A87E52126F301C90028F142 /* AttackStrategy.swift */; };
+		4A87E52426F301F10028F142 /* StrengthAttack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A87E52326F301F10028F142 /* StrengthAttack.swift */; };
+		4A87E52626F3022D0028F142 /* MagicAttack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A87E52526F3022D0028F142 /* MagicAttack.swift */; };
+		4A87E52826F3026A0028F142 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A87E52726F3026A0028F142 /* Player.swift */; };
+		4A87E52A26F303030028F142 /* Strategy3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A87E52926F303030028F142 /* Strategy3.swift */; };
 		4AD17DDD26EAFA18007EB6BD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD17DDC26EAFA18007EB6BD /* main.swift */; };
 		4AD17DE526EAFB4E007EB6BD /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD17DE426EAFB4E007EB6BD /* Student.swift */; };
 		4AD17DE726EAFB7B007EB6BD /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD17DE626EAFB7B007EB6BD /* Storage.swift */; };
@@ -42,6 +47,11 @@
 		4A87E51A26F2F74A0028F142 /* StrategyConcreteB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrategyConcreteB.swift; sourceTree = "<group>"; };
 		4A87E51C26F2F7930028F142 /* Context.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Context.swift; sourceTree = "<group>"; };
 		4A87E51E26F2F8470028F142 /* Strategy1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strategy1.swift; sourceTree = "<group>"; };
+		4A87E52126F301C90028F142 /* AttackStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttackStrategy.swift; sourceTree = "<group>"; };
+		4A87E52326F301F10028F142 /* StrengthAttack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrengthAttack.swift; sourceTree = "<group>"; };
+		4A87E52526F3022D0028F142 /* MagicAttack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicAttack.swift; sourceTree = "<group>"; };
+		4A87E52726F3026A0028F142 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		4A87E52926F303030028F142 /* Strategy3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strategy3.swift; sourceTree = "<group>"; };
 		4AD17DD926EAFA18007EB6BD /* Design Patterns */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Design Patterns"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AD17DDC26EAFA18007EB6BD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		4AD17DE426EAFB4E007EB6BD /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
@@ -74,6 +84,18 @@
 			path = "Strategy Pattern 1";
 			sourceTree = "<group>";
 		};
+		4A87E52026F301AE0028F142 /* Strategy Pattern 3 */ = {
+			isa = PBXGroup;
+			children = (
+				4A87E52126F301C90028F142 /* AttackStrategy.swift */,
+				4A87E52326F301F10028F142 /* StrengthAttack.swift */,
+				4A87E52526F3022D0028F142 /* MagicAttack.swift */,
+				4A87E52726F3026A0028F142 /* Player.swift */,
+				4A87E52926F303030028F142 /* Strategy3.swift */,
+			);
+			path = "Strategy Pattern 3";
+			sourceTree = "<group>";
+		};
 		4AD17DD026EAFA18007EB6BD = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +117,7 @@
 			children = (
 				4A87E51526F2F1760028F142 /* Strategy Pattern 1 */,
 				4AD17DE326EAFA25007EB6BD /* Strategy Pattern 2 */,
+				4A87E52026F301AE0028F142 /* Strategy Pattern 3 */,
 				4A87E51126F2E7A50028F142 /* Helper.swift */,
 				4AD17DDC26EAFA18007EB6BD /* main.swift */,
 			);
@@ -171,18 +194,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A87E52226F301C90028F142 /* AttackStrategy.swift in Sources */,
 				4AD17DDD26EAFA18007EB6BD /* main.swift in Sources */,
 				4A87E51226F2E7A50028F142 /* Helper.swift in Sources */,
 				4A87E51426F2EC7B0028F142 /* Strategy2.swift in Sources */,
 				4A87E51926F2F7150028F142 /* StrategyConcreteA.swift in Sources */,
+				4A87E52626F3022D0028F142 /* MagicAttack.swift in Sources */,
 				4A87E51F26F2F8470028F142 /* Strategy1.swift in Sources */,
 				4AD17DE926EAFBBE007EB6BD /* FileStorage.swift in Sources */,
+				4A87E52A26F303030028F142 /* Strategy3.swift in Sources */,
+				4A87E52426F301F10028F142 /* StrengthAttack.swift in Sources */,
 				4AD17DE526EAFB4E007EB6BD /* Student.swift in Sources */,
 				4A87E51726F2F6D30028F142 /* StrategyProtocol.swift in Sources */,
 				4AD17DED26EAFDED007EB6BD /* CloudStorage.swift in Sources */,
 				4AD17DE726EAFB7B007EB6BD /* Storage.swift in Sources */,
 				4A87E51D26F2F7930028F142 /* Context.swift in Sources */,
 				4A87E51B26F2F74A0028F142 /* StrategyConcreteB.swift in Sources */,
+				4A87E52826F3026A0028F142 /* Player.swift in Sources */,
 				4AD17DEB26EAFD9B007EB6BD /* DatabaseStorage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
