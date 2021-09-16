@@ -7,4 +7,4 @@
 
 import Foundation
 
-run(.StrategyPattern)
+run(.StrategyPattern_2)

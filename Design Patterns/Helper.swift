@@ -8,12 +8,11 @@
 import Foundation
 
 enum DesignPattern {
-    case StrategyPattern
+    case StrategyPattern_2
 }
 
 func run(_ pattern: DesignPattern) {
-    
     switch pattern {
-        case .StrategyPattern: strategyPattern()
+        case .StrategyPattern_2: strategyPattern2()
     }
 }

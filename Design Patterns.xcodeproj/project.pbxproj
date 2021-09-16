@@ -71,14 +71,14 @@
 		4AD17DDB26EAFA18007EB6BD /* Design Patterns */ = {
 			isa = PBXGroup;
 			children = (
-				4AD17DE326EAFA25007EB6BD /* Strategy Pattern */,
+				4AD17DE326EAFA25007EB6BD /* Strategy Pattern 2 */,
 				4A87E51126F2E7A50028F142 /* Helper.swift */,
 				4AD17DDC26EAFA18007EB6BD /* main.swift */,
 			);
 			path = "Design Patterns";
 			sourceTree = "<group>";
 		};
-		4AD17DE326EAFA25007EB6BD /* Strategy Pattern */ = {
+		4AD17DE326EAFA25007EB6BD /* Strategy Pattern 2 */ = {
 			isa = PBXGroup;
 			children = (
 				4A87E51326F2EC7B0028F142 /* Main.swift */,
@@ -88,7 +88,7 @@
 				4AD17DEA26EAFD9B007EB6BD /* DatabaseStorage.swift */,
 				4AD17DEC26EAFDED007EB6BD /* CloudStorage.swift */,
 			);
-			path = "Strategy Pattern";
+			path = "Strategy Pattern 2";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
