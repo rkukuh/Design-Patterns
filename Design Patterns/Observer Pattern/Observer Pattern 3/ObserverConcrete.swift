@@ -6,3 +6,17 @@
 //
 
 import Foundation
+
+struct ObserverConcrete: ObserverProtocol {
+    
+    var name: String
+    let observable: ObservableConcrete
+    
+    func update() -> String {
+        return observable.getState()
+    }
+    
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(name)
+    }
+}

@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A5CB9E226FB164400235900 /* ObserverProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5CB9E126FB164400235900 /* ObserverProtocol.swift */; };
+		4A5CB9E426FB168700235900 /* ObserverConcrete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5CB9E326FB168700235900 /* ObserverConcrete.swift */; };
+		4A5CB9E626FB16AE00235900 /* ObservableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5CB9E526FB16AE00235900 /* ObservableProtocol.swift */; };
+		4A5CB9E826FB170900235900 /* ObservableConcrete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5CB9E726FB170900235900 /* ObservableConcrete.swift */; };
+		4A5CB9EA26FB196300235900 /* Observer3_main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5CB9E926FB196300235900 /* Observer3_main.swift */; };
 		4A61E31C26F8680B00BAE994 /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A61E31B26F8680B00BAE994 /* Observer.swift */; };
 		4A61E31E26F8683100BAE994 /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A61E31D26F8683100BAE994 /* Subject.swift */; };
 		4A61E32026F876D900BAE994 /* ObserverConcreteA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A61E31F26F876D900BAE994 /* ObserverConcreteA.swift */; };
@@ -62,6 +67,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4A5CB9E126FB164400235900 /* ObserverProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserverProtocol.swift; sourceTree = "<group>"; };
+		4A5CB9E326FB168700235900 /* ObserverConcrete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserverConcrete.swift; sourceTree = "<group>"; };
+		4A5CB9E526FB16AE00235900 /* ObservableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableProtocol.swift; sourceTree = "<group>"; };
+		4A5CB9E726FB170900235900 /* ObservableConcrete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableConcrete.swift; sourceTree = "<group>"; };
+		4A5CB9E926FB196300235900 /* Observer3_main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observer3_main.swift; sourceTree = "<group>"; };
 		4A61E31B26F8680B00BAE994 /* Observer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
 		4A61E31D26F8683100BAE994 /* Subject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
 		4A61E31F26F876D900BAE994 /* ObserverConcreteA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserverConcreteA.swift; sourceTree = "<group>"; };
@@ -116,6 +126,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A5CB9E026FB162A00235900 /* Observer Pattern 3 */ = {
+			isa = PBXGroup;
+			children = (
+				4A5CB9E526FB16AE00235900 /* ObservableProtocol.swift */,
+				4A5CB9E726FB170900235900 /* ObservableConcrete.swift */,
+				4A5CB9E126FB164400235900 /* ObserverProtocol.swift */,
+				4A5CB9E326FB168700235900 /* ObserverConcrete.swift */,
+				4A5CB9E926FB196300235900 /* Observer3_main.swift */,
+			);
+			path = "Observer Pattern 3";
+			sourceTree = "<group>";
+		};
 		4A61E31A26F867F200BAE994 /* Observer Pattern 1 */ = {
 			isa = PBXGroup;
 			children = (
@@ -203,6 +225,7 @@
 			children = (
 				4A61E31A26F867F200BAE994 /* Observer Pattern 1 */,
 				4A87E54926F330890028F142 /* Observer Pattern 2 */,
+				4A5CB9E026FB162A00235900 /* Observer Pattern 3 */,
 			);
 			path = "Observer Pattern";
 			sourceTree = "<group>";
@@ -319,6 +342,7 @@
 				4A87E52226F301C90028F142 /* AttackStrategy.swift in Sources */,
 				4A61E31C26F8680B00BAE994 /* Observer.swift in Sources */,
 				4AD17DDD26EAFA18007EB6BD /* main.swift in Sources */,
+				4A5CB9E826FB170900235900 /* ObservableConcrete.swift in Sources */,
 				4A87E51226F2E7A50028F142 /* Helper.swift in Sources */,
 				4A87E52D26F322370028F142 /* Strategy4_main.swift in Sources */,
 				4A87E51426F2EC7B0028F142 /* Strategy2_main.swift in Sources */,
@@ -340,9 +364,12 @@
 				4A87E55326F3328B0028F142 /* Store.swift in Sources */,
 				4A61E32226F8773700BAE994 /* ObserverConcreteB.swift in Sources */,
 				4AD17DE526EAFB4E007EB6BD /* Student.swift in Sources */,
+				4A5CB9E426FB168700235900 /* ObserverConcrete.swift in Sources */,
 				4A87E51726F2F6D30028F142 /* StrategyProtocol.swift in Sources */,
 				4AD17DED26EAFDED007EB6BD /* CloudStorage.swift in Sources */,
+				4A5CB9EA26FB196300235900 /* Observer3_main.swift in Sources */,
 				4A87E52F26F324170028F142 /* QuackStrategy.swift in Sources */,
+				4A5CB9E226FB164400235900 /* ObserverProtocol.swift in Sources */,
 				4AD17DE726EAFB7B007EB6BD /* Storage.swift in Sources */,
 				4A87E53E26F32A230028F142 /* CanNotQuack.swift in Sources */,
 				4A87E54B26F330A20028F142 /* Observer2_main.swift in Sources */,
@@ -351,6 +378,7 @@
 				4A61E32026F876D900BAE994 /* ObserverConcreteA.swift in Sources */,
 				4A87E51D26F2F7930028F142 /* Context.swift in Sources */,
 				4A87E54426F32B800028F142 /* MountainDuck.swift in Sources */,
+				4A5CB9E626FB16AE00235900 /* ObservableProtocol.swift in Sources */,
 				4A87E51B26F2F74A0028F142 /* StrategyConcreteB.swift in Sources */,
 				4A87E52826F3026A0028F142 /* Player.swift in Sources */,
 				4A87E54026F32A480028F142 /* CanNotSwim.swift in Sources */,

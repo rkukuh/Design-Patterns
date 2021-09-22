@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+protocol ObservableProtocol: Equatable {
+    mutating func add(observer: ObserverConcrete)
+    mutating func remove(observer: ObserverConcrete)
+    
+    func notify()
+    func getState() -> String
+}

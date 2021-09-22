@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+protocol ObserverProtocol: Hashable {
+    func update() -> String
+}

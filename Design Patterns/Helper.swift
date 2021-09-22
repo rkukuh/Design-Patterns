@@ -15,6 +15,7 @@ enum DesignPattern {
     
     case ObserverPattern_1
     case ObserverPattern_2
+    case ObserverPattern_3
 }
 
 func run(_ pattern: DesignPattern) {
@@ -26,5 +27,6 @@ func run(_ pattern: DesignPattern) {
         
     case .ObserverPattern_1: observer1()
     case .ObserverPattern_2: observer2()
+    case .ObserverPattern_3: observer3()
     }
 }
