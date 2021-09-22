@@ -9,6 +9,7 @@ import Foundation
 
 struct ObservableConcrete: ObservableProtocol {
     
+    var name: String
     var observers = Set<ObserverConcrete>()
     
     mutating func add(observer: ObserverConcrete) {
@@ -23,7 +24,7 @@ struct ObservableConcrete: ObservableProtocol {
     
     func notify() {
         for observer in observers {
-            print("Observable notify its", observer.update(), "on", observer.name)
+            print("\(name) notify its", observer.update(), "on", observer.name)
         }
     }
     

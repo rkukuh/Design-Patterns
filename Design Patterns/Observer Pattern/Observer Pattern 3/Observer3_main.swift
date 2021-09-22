@@ -10,7 +10,7 @@ import Foundation
 func observer3() {
     print("---------- Observer Pattern #3 ----------")
     
-    var weatherStation = ObservableConcrete()
+    var weatherStation = ObservableConcrete(name: "Weather Station")
     
     let phoneDisplay = ObserverConcrete(name: "Phone Display", observable: weatherStation)
     let laptopDisplay = ObserverConcrete(name: "Laptop Display", observable: weatherStation)
