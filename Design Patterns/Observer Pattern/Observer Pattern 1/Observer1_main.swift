@@ -6,3 +6,28 @@
 //
 
 import Foundation
+
+func observer1() {
+    print("---------- Observer Pattern #1 ----------")
+    
+    let subject = Subject()
+    
+    let observerA = ObserverConcreteA()
+    let observerB = ObserverConcreteB()
+    
+    ///
+    
+    subject.attach(observer: observerA)
+    subject.attach(observer: observerB)
+    
+    subject.doSomeBusiness()
+    subject.doSomeBusiness()
+    subject.doSomeBusiness()
+    
+    subject.detach(observer: observerB)
+    
+    subject.doSomeBusiness()
+    subject.doSomeBusiness()
+    
+    print()
+}

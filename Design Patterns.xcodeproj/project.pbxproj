@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A61E31C26F8680B00BAE994 /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A61E31B26F8680B00BAE994 /* Observer.swift */; };
+		4A61E31E26F8683100BAE994 /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A61E31D26F8683100BAE994 /* Subject.swift */; };
+		4A61E32026F876D900BAE994 /* ObserverConcreteA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A61E31F26F876D900BAE994 /* ObserverConcreteA.swift */; };
+		4A61E32226F8773700BAE994 /* ObserverConcreteB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A61E32126F8773700BAE994 /* ObserverConcreteB.swift */; };
+		4A61E32426F877BF00BAE994 /* Observer1_main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A61E32326F877BF00BAE994 /* Observer1_main.swift */; };
 		4A87E51226F2E7A50028F142 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A87E51126F2E7A50028F142 /* Helper.swift */; };
 		4A87E51426F2EC7B0028F142 /* Strategy2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A87E51326F2EC7B0028F142 /* Strategy2.swift */; };
 		4A87E51726F2F6D30028F142 /* StrategyProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A87E51626F2F6D30028F142 /* StrategyProtocol.swift */; };
@@ -57,6 +62,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4A61E31B26F8680B00BAE994 /* Observer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
+		4A61E31D26F8683100BAE994 /* Subject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
+		4A61E31F26F876D900BAE994 /* ObserverConcreteA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserverConcreteA.swift; sourceTree = "<group>"; };
+		4A61E32126F8773700BAE994 /* ObserverConcreteB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserverConcreteB.swift; sourceTree = "<group>"; };
+		4A61E32326F877BF00BAE994 /* Observer1_main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observer1_main.swift; sourceTree = "<group>"; };
 		4A87E51126F2E7A50028F142 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		4A87E51326F2EC7B0028F142 /* Strategy2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strategy2.swift; sourceTree = "<group>"; };
 		4A87E51626F2F6D30028F142 /* StrategyProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrategyProtocol.swift; sourceTree = "<group>"; };
@@ -106,6 +116,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A61E31A26F867F200BAE994 /* Observer Pattern 1 */ = {
+			isa = PBXGroup;
+			children = (
+				4A61E31B26F8680B00BAE994 /* Observer.swift */,
+				4A61E31D26F8683100BAE994 /* Subject.swift */,
+				4A61E31F26F876D900BAE994 /* ObserverConcreteA.swift */,
+				4A61E32126F8773700BAE994 /* ObserverConcreteB.swift */,
+				4A61E32326F877BF00BAE994 /* Observer1_main.swift */,
+			);
+			path = "Observer Pattern 1";
+			sourceTree = "<group>";
+		};
 		4A87E51526F2F1760028F142 /* Strategy Pattern 1 */ = {
 			isa = PBXGroup;
 			children = (
@@ -179,6 +201,7 @@
 		4A87E54826F330760028F142 /* Observer Pattern */ = {
 			isa = PBXGroup;
 			children = (
+				4A61E31A26F867F200BAE994 /* Observer Pattern 1 */,
 				4A87E54926F330890028F142 /* Observer Pattern 2 */,
 			);
 			path = "Observer Pattern";
@@ -294,6 +317,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A87E52226F301C90028F142 /* AttackStrategy.swift in Sources */,
+				4A61E31C26F8680B00BAE994 /* Observer.swift in Sources */,
 				4AD17DDD26EAFA18007EB6BD /* main.swift in Sources */,
 				4A87E51226F2E7A50028F142 /* Helper.swift in Sources */,
 				4A87E52D26F322370028F142 /* Strategy 4.swift in Sources */,
@@ -303,6 +327,7 @@
 				4A87E52626F3022D0028F142 /* MagicAttack.swift in Sources */,
 				4A87E51F26F2F8470028F142 /* Strategy1.swift in Sources */,
 				4A87E53126F324880028F142 /* SoftQuack.swift in Sources */,
+				4A61E31E26F8683100BAE994 /* Subject.swift in Sources */,
 				4A87E53326F324B40028F142 /* LoudQuack.swift in Sources */,
 				4A87E53726F3292D0028F142 /* SwimStrategy.swift in Sources */,
 				4A87E54226F32A7A0028F142 /* Duck.swift in Sources */,
@@ -311,7 +336,9 @@
 				4A87E54F26F331A60028F142 /* Subscriber.swift in Sources */,
 				4A87E52426F301F10028F142 /* StrengthAttack.swift in Sources */,
 				4A87E54626F32D420028F142 /* RubberDuck.swift in Sources */,
+				4A61E32426F877BF00BAE994 /* Observer1_main.swift in Sources */,
 				4A87E55326F3328B0028F142 /* Store.swift in Sources */,
+				4A61E32226F8773700BAE994 /* ObserverConcreteB.swift in Sources */,
 				4AD17DE526EAFB4E007EB6BD /* Student.swift in Sources */,
 				4A87E51726F2F6D30028F142 /* StrategyProtocol.swift in Sources */,
 				4AD17DED26EAFDED007EB6BD /* CloudStorage.swift in Sources */,
@@ -321,6 +348,7 @@
 				4A87E54B26F330A20028F142 /* Observer2.swift in Sources */,
 				4A87E54D26F331510028F142 /* Publisher.swift in Sources */,
 				4A87E53B26F329E30028F142 /* FastSwim.swift in Sources */,
+				4A61E32026F876D900BAE994 /* ObserverConcreteA.swift in Sources */,
 				4A87E51D26F2F7930028F142 /* Context.swift in Sources */,
 				4A87E54426F32B800028F142 /* MountainDuck.swift in Sources */,
 				4A87E51B26F2F74A0028F142 /* StrategyConcreteB.swift in Sources */,

@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+protocol Observer: AnyObject {
+    func update(subject: Subject)
+}

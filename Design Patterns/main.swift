@@ -7,4 +7,4 @@
 
 import Foundation
 
-run(.ObserverPattern_2)
+run(.ObserverPattern_1)
