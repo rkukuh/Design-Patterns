@@ -13,18 +13,18 @@
 		4A61E32226F8773700BAE994 /* ObserverConcreteB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A61E32126F8773700BAE994 /* ObserverConcreteB.swift */; };
 		4A61E32426F877BF00BAE994 /* Observer1_main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A61E32326F877BF00BAE994 /* Observer1_main.swift */; };
 		4A87E51226F2E7A50028F142 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A87E51126F2E7A50028F142 /* Helper.swift */; };
-		4A87E51426F2EC7B0028F142 /* Strategy2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A87E51326F2EC7B0028F142 /* Strategy2.swift */; };
+		4A87E51426F2EC7B0028F142 /* Strategy2_main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A87E51326F2EC7B0028F142 /* Strategy2_main.swift */; };
 		4A87E51726F2F6D30028F142 /* StrategyProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A87E51626F2F6D30028F142 /* StrategyProtocol.swift */; };
 		4A87E51926F2F7150028F142 /* StrategyConcreteA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A87E51826F2F7150028F142 /* StrategyConcreteA.swift */; };
 		4A87E51B26F2F74A0028F142 /* StrategyConcreteB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A87E51A26F2F74A0028F142 /* StrategyConcreteB.swift */; };
 		4A87E51D26F2F7930028F142 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A87E51C26F2F7930028F142 /* Context.swift */; };
-		4A87E51F26F2F8470028F142 /* Strategy1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A87E51E26F2F8470028F142 /* Strategy1.swift */; };
+		4A87E51F26F2F8470028F142 /* Strategy1_main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A87E51E26F2F8470028F142 /* Strategy1_main.swift */; };
 		4A87E52226F301C90028F142 /* AttackStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A87E52126F301C90028F142 /* AttackStrategy.swift */; };
 		4A87E52426F301F10028F142 /* StrengthAttack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A87E52326F301F10028F142 /* StrengthAttack.swift */; };
 		4A87E52626F3022D0028F142 /* MagicAttack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A87E52526F3022D0028F142 /* MagicAttack.swift */; };
 		4A87E52826F3026A0028F142 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A87E52726F3026A0028F142 /* Player.swift */; };
-		4A87E52A26F303030028F142 /* Strategy3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A87E52926F303030028F142 /* Strategy3.swift */; };
-		4A87E52D26F322370028F142 /* Strategy 4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A87E52C26F322370028F142 /* Strategy 4.swift */; };
+		4A87E52A26F303030028F142 /* Strategy3_main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A87E52926F303030028F142 /* Strategy3_main.swift */; };
+		4A87E52D26F322370028F142 /* Strategy4_main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A87E52C26F322370028F142 /* Strategy4_main.swift */; };
 		4A87E52F26F324170028F142 /* QuackStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A87E52E26F324170028F142 /* QuackStrategy.swift */; };
 		4A87E53126F324880028F142 /* SoftQuack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A87E53026F324880028F142 /* SoftQuack.swift */; };
 		4A87E53326F324B40028F142 /* LoudQuack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A87E53226F324B40028F142 /* LoudQuack.swift */; };
@@ -36,7 +36,7 @@
 		4A87E54226F32A7A0028F142 /* Duck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A87E54126F32A7A0028F142 /* Duck.swift */; };
 		4A87E54426F32B800028F142 /* MountainDuck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A87E54326F32B800028F142 /* MountainDuck.swift */; };
 		4A87E54626F32D420028F142 /* RubberDuck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A87E54526F32D420028F142 /* RubberDuck.swift */; };
-		4A87E54B26F330A20028F142 /* Observer2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A87E54A26F330A20028F142 /* Observer2.swift */; };
+		4A87E54B26F330A20028F142 /* Observer2_main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A87E54A26F330A20028F142 /* Observer2_main.swift */; };
 		4A87E54D26F331510028F142 /* Publisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A87E54C26F331510028F142 /* Publisher.swift */; };
 		4A87E54F26F331A60028F142 /* Subscriber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A87E54E26F331A60028F142 /* Subscriber.swift */; };
 		4A87E55126F331EB0028F142 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A87E55026F331EB0028F142 /* Customer.swift */; };
@@ -68,18 +68,18 @@
 		4A61E32126F8773700BAE994 /* ObserverConcreteB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserverConcreteB.swift; sourceTree = "<group>"; };
 		4A61E32326F877BF00BAE994 /* Observer1_main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observer1_main.swift; sourceTree = "<group>"; };
 		4A87E51126F2E7A50028F142 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
-		4A87E51326F2EC7B0028F142 /* Strategy2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strategy2.swift; sourceTree = "<group>"; };
+		4A87E51326F2EC7B0028F142 /* Strategy2_main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strategy2_main.swift; sourceTree = "<group>"; };
 		4A87E51626F2F6D30028F142 /* StrategyProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrategyProtocol.swift; sourceTree = "<group>"; };
 		4A87E51826F2F7150028F142 /* StrategyConcreteA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrategyConcreteA.swift; sourceTree = "<group>"; };
 		4A87E51A26F2F74A0028F142 /* StrategyConcreteB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrategyConcreteB.swift; sourceTree = "<group>"; };
 		4A87E51C26F2F7930028F142 /* Context.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Context.swift; sourceTree = "<group>"; };
-		4A87E51E26F2F8470028F142 /* Strategy1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strategy1.swift; sourceTree = "<group>"; };
+		4A87E51E26F2F8470028F142 /* Strategy1_main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strategy1_main.swift; sourceTree = "<group>"; };
 		4A87E52126F301C90028F142 /* AttackStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttackStrategy.swift; sourceTree = "<group>"; };
 		4A87E52326F301F10028F142 /* StrengthAttack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrengthAttack.swift; sourceTree = "<group>"; };
 		4A87E52526F3022D0028F142 /* MagicAttack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicAttack.swift; sourceTree = "<group>"; };
 		4A87E52726F3026A0028F142 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
-		4A87E52926F303030028F142 /* Strategy3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strategy3.swift; sourceTree = "<group>"; };
-		4A87E52C26F322370028F142 /* Strategy 4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Strategy 4.swift"; sourceTree = "<group>"; };
+		4A87E52926F303030028F142 /* Strategy3_main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strategy3_main.swift; sourceTree = "<group>"; };
+		4A87E52C26F322370028F142 /* Strategy4_main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strategy4_main.swift; sourceTree = "<group>"; };
 		4A87E52E26F324170028F142 /* QuackStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuackStrategy.swift; sourceTree = "<group>"; };
 		4A87E53026F324880028F142 /* SoftQuack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoftQuack.swift; sourceTree = "<group>"; };
 		4A87E53226F324B40028F142 /* LoudQuack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoudQuack.swift; sourceTree = "<group>"; };
@@ -91,7 +91,7 @@
 		4A87E54126F32A7A0028F142 /* Duck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Duck.swift; sourceTree = "<group>"; };
 		4A87E54326F32B800028F142 /* MountainDuck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MountainDuck.swift; sourceTree = "<group>"; };
 		4A87E54526F32D420028F142 /* RubberDuck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RubberDuck.swift; sourceTree = "<group>"; };
-		4A87E54A26F330A20028F142 /* Observer2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observer2.swift; sourceTree = "<group>"; };
+		4A87E54A26F330A20028F142 /* Observer2_main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observer2_main.swift; sourceTree = "<group>"; };
 		4A87E54C26F331510028F142 /* Publisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Publisher.swift; sourceTree = "<group>"; };
 		4A87E54E26F331A60028F142 /* Subscriber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subscriber.swift; sourceTree = "<group>"; };
 		4A87E55026F331EB0028F142 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
@@ -135,7 +135,7 @@
 				4A87E51826F2F7150028F142 /* StrategyConcreteA.swift */,
 				4A87E51A26F2F74A0028F142 /* StrategyConcreteB.swift */,
 				4A87E51C26F2F7930028F142 /* Context.swift */,
-				4A87E51E26F2F8470028F142 /* Strategy1.swift */,
+				4A87E51E26F2F8470028F142 /* Strategy1_main.swift */,
 			);
 			path = "Strategy Pattern 1";
 			sourceTree = "<group>";
@@ -147,7 +147,7 @@
 				4A87E52326F301F10028F142 /* StrengthAttack.swift */,
 				4A87E52526F3022D0028F142 /* MagicAttack.swift */,
 				4A87E52726F3026A0028F142 /* Player.swift */,
-				4A87E52926F303030028F142 /* Strategy3.swift */,
+				4A87E52926F303030028F142 /* Strategy3_main.swift */,
 			);
 			path = "Strategy Pattern 3";
 			sourceTree = "<group>";
@@ -160,7 +160,7 @@
 				4A87E54126F32A7A0028F142 /* Duck.swift */,
 				4A87E54326F32B800028F142 /* MountainDuck.swift */,
 				4A87E54526F32D420028F142 /* RubberDuck.swift */,
-				4A87E52C26F322370028F142 /* Strategy 4.swift */,
+				4A87E52C26F322370028F142 /* Strategy4_main.swift */,
 			);
 			path = "Strategy Pattern 4";
 			sourceTree = "<group>";
@@ -214,7 +214,7 @@
 				4A87E54C26F331510028F142 /* Publisher.swift */,
 				4A87E55026F331EB0028F142 /* Customer.swift */,
 				4A87E55226F3328B0028F142 /* Store.swift */,
-				4A87E54A26F330A20028F142 /* Observer2.swift */,
+				4A87E54A26F330A20028F142 /* Observer2_main.swift */,
 			);
 			path = "Observer Pattern 2";
 			sourceTree = "<group>";
@@ -254,7 +254,7 @@
 				4AD17DEA26EAFD9B007EB6BD /* DatabaseStorage.swift */,
 				4AD17DEC26EAFDED007EB6BD /* CloudStorage.swift */,
 				4AD17DE426EAFB4E007EB6BD /* Student.swift */,
-				4A87E51326F2EC7B0028F142 /* Strategy2.swift */,
+				4A87E51326F2EC7B0028F142 /* Strategy2_main.swift */,
 			);
 			path = "Strategy Pattern 2";
 			sourceTree = "<group>";
@@ -320,19 +320,19 @@
 				4A61E31C26F8680B00BAE994 /* Observer.swift in Sources */,
 				4AD17DDD26EAFA18007EB6BD /* main.swift in Sources */,
 				4A87E51226F2E7A50028F142 /* Helper.swift in Sources */,
-				4A87E52D26F322370028F142 /* Strategy 4.swift in Sources */,
-				4A87E51426F2EC7B0028F142 /* Strategy2.swift in Sources */,
+				4A87E52D26F322370028F142 /* Strategy4_main.swift in Sources */,
+				4A87E51426F2EC7B0028F142 /* Strategy2_main.swift in Sources */,
 				4A87E51926F2F7150028F142 /* StrategyConcreteA.swift in Sources */,
 				4A87E53926F329AF0028F142 /* SlowSwim.swift in Sources */,
 				4A87E52626F3022D0028F142 /* MagicAttack.swift in Sources */,
-				4A87E51F26F2F8470028F142 /* Strategy1.swift in Sources */,
+				4A87E51F26F2F8470028F142 /* Strategy1_main.swift in Sources */,
 				4A87E53126F324880028F142 /* SoftQuack.swift in Sources */,
 				4A61E31E26F8683100BAE994 /* Subject.swift in Sources */,
 				4A87E53326F324B40028F142 /* LoudQuack.swift in Sources */,
 				4A87E53726F3292D0028F142 /* SwimStrategy.swift in Sources */,
 				4A87E54226F32A7A0028F142 /* Duck.swift in Sources */,
 				4AD17DE926EAFBBE007EB6BD /* FileStorage.swift in Sources */,
-				4A87E52A26F303030028F142 /* Strategy3.swift in Sources */,
+				4A87E52A26F303030028F142 /* Strategy3_main.swift in Sources */,
 				4A87E54F26F331A60028F142 /* Subscriber.swift in Sources */,
 				4A87E52426F301F10028F142 /* StrengthAttack.swift in Sources */,
 				4A87E54626F32D420028F142 /* RubberDuck.swift in Sources */,
@@ -345,7 +345,7 @@
 				4A87E52F26F324170028F142 /* QuackStrategy.swift in Sources */,
 				4AD17DE726EAFB7B007EB6BD /* Storage.swift in Sources */,
 				4A87E53E26F32A230028F142 /* CanNotQuack.swift in Sources */,
-				4A87E54B26F330A20028F142 /* Observer2.swift in Sources */,
+				4A87E54B26F330A20028F142 /* Observer2_main.swift in Sources */,
 				4A87E54D26F331510028F142 /* Publisher.swift in Sources */,
 				4A87E53B26F329E30028F142 /* FastSwim.swift in Sources */,
 				4A61E32026F876D900BAE994 /* ObserverConcreteA.swift in Sources */,
