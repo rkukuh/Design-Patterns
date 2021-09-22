@@ -18,6 +18,7 @@
 		4A5CB9F426FB28D400235900 /* DecoratorConcreteA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5CB9F326FB28D400235900 /* DecoratorConcreteA.swift */; };
 		4A5CB9F626FB2C2300235900 /* DecoratorConcreteB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5CB9F526FB2C2300235900 /* DecoratorConcreteB.swift */; };
 		4A5CB9F826FB2C4E00235900 /* Decorator1_main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5CB9F726FB2C4E00235900 /* Decorator1_main.swift */; };
+		4A5CB9FA26FB2FB800235900 /* DesignPatterns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5CB9F926FB2FB700235900 /* DesignPatterns.swift */; };
 		4A61E31C26F8680B00BAE994 /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A61E31B26F8680B00BAE994 /* Observer.swift */; };
 		4A61E31E26F8683100BAE994 /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A61E31D26F8683100BAE994 /* Subject.swift */; };
 		4A61E32026F876D900BAE994 /* ObserverConcreteA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A61E31F26F876D900BAE994 /* ObserverConcreteA.swift */; };
@@ -84,6 +85,7 @@
 		4A5CB9F326FB28D400235900 /* DecoratorConcreteA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecoratorConcreteA.swift; sourceTree = "<group>"; };
 		4A5CB9F526FB2C2300235900 /* DecoratorConcreteB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecoratorConcreteB.swift; sourceTree = "<group>"; };
 		4A5CB9F726FB2C4E00235900 /* Decorator1_main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decorator1_main.swift; sourceTree = "<group>"; };
+		4A5CB9F926FB2FB700235900 /* DesignPatterns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignPatterns.swift; sourceTree = "<group>"; };
 		4A61E31B26F8680B00BAE994 /* Observer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
 		4A61E31D26F8683100BAE994 /* Subject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
 		4A61E31F26F876D900BAE994 /* ObserverConcreteA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserverConcreteA.swift; sourceTree = "<group>"; };
@@ -296,6 +298,7 @@
 			children = (
 				4AD17DDC26EAFA18007EB6BD /* main.swift */,
 				4A87E51126F2E7A50028F142 /* Helper.swift */,
+				4A5CB9F926FB2FB700235900 /* DesignPatterns.swift */,
 				4A87E54726F32F9F0028F142 /* Strategy Pattern */,
 				4A87E54826F330760028F142 /* Observer Pattern */,
 				4A5CB9EB26FB247A00235900 /* Decorator Pattern */,
@@ -403,6 +406,7 @@
 				4A5CB9E426FB168700235900 /* ObserverConcrete.swift in Sources */,
 				4A87E51726F2F6D30028F142 /* StrategyProtocol.swift in Sources */,
 				4AD17DED26EAFDED007EB6BD /* CloudStorage.swift in Sources */,
+				4A5CB9FA26FB2FB800235900 /* DesignPatterns.swift in Sources */,
 				4A5CB9F226FB252600235900 /* Decorator.swift in Sources */,
 				4A5CB9EA26FB196300235900 /* Observer3_main.swift in Sources */,
 				4A87E52F26F324170028F142 /* QuackStrategy.swift in Sources */,

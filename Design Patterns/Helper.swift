@@ -7,19 +7,6 @@
 
 import Foundation
 
-enum DesignPattern {
-    case StrategyPattern_1
-    case StrategyPattern_2
-    case StrategyPattern_3
-    case StrategyPattern_4
-    
-    case ObserverPattern_1
-    case ObserverPattern_2
-    case ObserverPattern_3
-    
-    case DecoratorPattern_1
-}
-
 func run(_ pattern: DesignPattern) {
     switch pattern {
     case .StrategyPattern_1: strategy1()
