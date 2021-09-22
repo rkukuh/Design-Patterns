@@ -6,3 +6,16 @@
 //
 
 import Foundation
+
+class Decorator: Component {
+    
+    let component: Component
+    
+    init(component: Component) {
+        self.component = component
+    }
+    
+    func operation() -> String {
+        return component.operation()
+    }
+}

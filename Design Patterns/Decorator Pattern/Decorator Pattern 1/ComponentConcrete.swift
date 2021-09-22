@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+struct ComponentConcrete: Component {
+    
+    func operation() -> String {
+        return "ComponentConcrete()"
+    }
+}

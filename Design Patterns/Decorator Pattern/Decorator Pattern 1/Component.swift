@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+protocol Component {
+    func operation() -> String
+}

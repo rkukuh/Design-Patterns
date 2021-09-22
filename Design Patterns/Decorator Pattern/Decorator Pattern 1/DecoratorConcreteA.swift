@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+class DecoratorConcreteA: Decorator {
+    
+    override func operation() -> String {
+        return "DecoratorConcreteA(" + super.operation() + ")"
+    }
+}
