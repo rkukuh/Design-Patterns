@@ -4,6 +4,23 @@
 
 Proyek ini merupakan sarana belajar pribadi tentang, well, implementasi [Design Patterns](https://www.youtube.com/playlist?list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc) dalam bahasa [Swift](https://github.com/apple/swift/tree/main/stdlib/public/core). 
 
+### Cara Menjalankan
+
+1. Clone/Download repository
+2. Buka di Xcode 13 atau yang lebih baru
+3. Buka file `main.swift` 
+4. Jalankan minimal satu dari potongan kode berikut:
+
+```swift
+run(.StrategyPattern_1)
+run(.StrategyPattern_2)
+
+run(.ObserverPattern_1)
+run(.ObserverPattern_2)
+```
+
+Parameter dari fungsi `run()` diatas bisa dilihat di file `DesignPattern.swift`
+
 ## Daftar Design Patterns
 
 Berikut daftar Design Patterns yang sudah ada contoh implementasinya:
