@@ -2,7 +2,7 @@
 
 ## Deskripsi
 
-Proyek ini merupakan sarana belajar pribadi tentang, well, implementasi [Design Patterns](https://www.youtube.com/playlist?list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc) dalam bahasa [Swift](https://github.com/apple/swift/tree/main/stdlib/public/core). 
+Proyek ini merupakan sarana belajar pribadi tentang implementasi [Design Patterns](https://www.youtube.com/playlist?list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc) dalam bahasa [Swift](https://github.com/apple/swift/tree/main/stdlib/public/core). 
 
 ### Cara Menjalankan
 
