@@ -8,9 +8,9 @@ Implementasi [Design Patterns](https://www.youtube.com/playlist?list=PLrhzvIcii6
 
 Berikut daftar Design Patterns yang sudah ada contoh implementasinya:
 
-1. Strategy Pattern
-2. Observer Pattern
-3. Decorator Pattern
+1. [Strategy Pattern](https://github.com/rkukuh/DesignPatterns.swift/tree/main/Design%20Patterns/Strategy%20Pattern)
+2. [Observer Pattern](https://github.com/rkukuh/DesignPatterns.swift/tree/main/Design%20Patterns/Observer%20Pattern)
+3. [Decorator Pattern](https://github.com/rkukuh/DesignPatterns.swift/tree/main/Design%20Patterns/Decorator%20Pattern)
 
 Berikut daftar Design Patterns yang akan dibuatkan contoh implementasinya:
 
