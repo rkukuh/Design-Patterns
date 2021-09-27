@@ -19,5 +19,6 @@ func run(_ pattern: DesignPattern) {
     case .ObserverPattern_3: observer3()
         
     case .DecoratorPattern_1: decorator1()
+    case .DecoratorPattern_2: decorator2()
     }
 }
