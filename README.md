@@ -21,7 +21,9 @@ run(.ObserverPattern_2)
 
 Macam value dari parameter fungsi `run()` diatas bisa dilihat di file `DesignPattern.swift`
 
-## Daftar Design Patterns
+## Design Patterns
+
+### Daftar Design Patterns
 
 Berikut daftar Design Patterns yang sudah ada contoh implementasinya:
 
@@ -47,3 +49,7 @@ Berikut daftar Design Patterns yang akan dibuatkan contoh implementasinya:
 11. Iterator Pattern
 12. State Pattern
 13. Null Object Pattern
+
+### Tentang Design Patterns
+
+blablabla
