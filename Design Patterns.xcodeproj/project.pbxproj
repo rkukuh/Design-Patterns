@@ -141,7 +141,7 @@
 		4AD17DE826EAFBBE007EB6BD /* FileStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileStorage.swift; sourceTree = "<group>"; };
 		4AD17DEA26EAFD9B007EB6BD /* DatabaseStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseStorage.swift; sourceTree = "<group>"; };
 		4AD17DEC26EAFDED007EB6BD /* CloudStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudStorage.swift; sourceTree = "<group>"; };
-		4AF2D9EE2701BCBD00BF7E4C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = "Design Patterns/README.md"; sourceTree = SOURCE_ROOT; };
+		4AF2D9EE2701BCBD00BF7E4C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -326,6 +326,7 @@
 		4AD17DD026EAFA18007EB6BD = {
 			isa = PBXGroup;
 			children = (
+				4AF2D9EE2701BCBD00BF7E4C /* README.md */,
 				4AD17DDB26EAFA18007EB6BD /* Design Patterns */,
 				4AD17DDA26EAFA18007EB6BD /* Products */,
 			);
@@ -345,7 +346,6 @@
 				4AD17DDC26EAFA18007EB6BD /* main.swift */,
 				4A87E51126F2E7A50028F142 /* Helper.swift */,
 				4A5CB9F926FB2FB700235900 /* DesignPattern.swift */,
-				4AF2D9EE2701BCBD00BF7E4C /* README.md */,
 				4A87E54726F32F9F0028F142 /* Strategy Pattern */,
 				4A87E54826F330760028F142 /* Observer Pattern */,
 				4A5CB9EB26FB247A00235900 /* Decorator Pattern */,
