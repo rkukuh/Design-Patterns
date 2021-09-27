@@ -19,7 +19,7 @@ run(.ObserverPattern_1)
 run(.ObserverPattern_2)
 ```
 
-Parameter dari fungsi `run()` diatas bisa dilihat di file `DesignPattern.swift`
+Macam value dari parameter fungsi `run()` diatas bisa dilihat di file `DesignPattern.swift`
 
 ## Daftar Design Patterns
 
