@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+class BlurFilter: BaseFilter {
+    
+    override var description: String {
+        return "BlurFilter"
+    }
+}

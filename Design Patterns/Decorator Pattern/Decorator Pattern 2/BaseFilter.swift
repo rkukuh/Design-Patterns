@@ -6,3 +6,14 @@
 //
 
 import Foundation
+
+class BaseFilter: ImageDecorator {
+    
+    override var description: String {
+        return "BaseFilter"
+    }
+    
+    override func apply() -> String {
+        return description + " " + super.apply()
+    }
+}

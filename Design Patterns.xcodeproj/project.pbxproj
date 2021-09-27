@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A00D79426FC641C00F92661 /* BlurFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A00D79326FC641C00F92661 /* BlurFilter.swift */; };
+		4A00D79626FC644700F92661 /* ColorFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A00D79526FC644700F92661 /* ColorFilter.swift */; };
+		4A00D79826FC647A00F92661 /* Decorator2_main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A00D79726FC647A00F92661 /* Decorator2_main.swift */; };
 		4A5CB9E226FB164400235900 /* ObserverProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5CB9E126FB164400235900 /* ObserverProtocol.swift */; };
 		4A5CB9E426FB168700235900 /* ObserverConcrete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5CB9E326FB168700235900 /* ObserverConcrete.swift */; };
 		4A5CB9E626FB16AE00235900 /* ObservableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5CB9E526FB16AE00235900 /* ObservableProtocol.swift */; };
@@ -18,7 +21,11 @@
 		4A5CB9F426FB28D400235900 /* DecoratorConcreteA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5CB9F326FB28D400235900 /* DecoratorConcreteA.swift */; };
 		4A5CB9F626FB2C2300235900 /* DecoratorConcreteB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5CB9F526FB2C2300235900 /* DecoratorConcreteB.swift */; };
 		4A5CB9F826FB2C4E00235900 /* Decorator1_main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5CB9F726FB2C4E00235900 /* Decorator1_main.swift */; };
-		4A5CB9FA26FB2FB800235900 /* DesignPatterns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5CB9F926FB2FB700235900 /* DesignPatterns.swift */; };
+		4A5CB9FA26FB2FB800235900 /* DesignPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5CB9F926FB2FB700235900 /* DesignPattern.swift */; };
+		4A5CB9FD26FB30D300235900 /* ImageEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5CB9FC26FB30D300235900 /* ImageEditor.swift */; };
+		4A5CB9FF26FB327500235900 /* ImageDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5CB9FE26FB327500235900 /* ImageDecorator.swift */; };
+		4A5CBA0126FB330600235900 /* Resizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5CBA0026FB330600235900 /* Resizer.swift */; };
+		4A5CBA0426FB338100235900 /* BaseFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5CBA0326FB338100235900 /* BaseFilter.swift */; };
 		4A61E31C26F8680B00BAE994 /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A61E31B26F8680B00BAE994 /* Observer.swift */; };
 		4A61E31E26F8683100BAE994 /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A61E31D26F8683100BAE994 /* Subject.swift */; };
 		4A61E32026F876D900BAE994 /* ObserverConcreteA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A61E31F26F876D900BAE994 /* ObserverConcreteA.swift */; };
@@ -74,6 +81,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4A00D79326FC641C00F92661 /* BlurFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurFilter.swift; sourceTree = "<group>"; };
+		4A00D79526FC644700F92661 /* ColorFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorFilter.swift; sourceTree = "<group>"; };
+		4A00D79726FC647A00F92661 /* Decorator2_main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decorator2_main.swift; sourceTree = "<group>"; };
 		4A5CB9E126FB164400235900 /* ObserverProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserverProtocol.swift; sourceTree = "<group>"; };
 		4A5CB9E326FB168700235900 /* ObserverConcrete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserverConcrete.swift; sourceTree = "<group>"; };
 		4A5CB9E526FB16AE00235900 /* ObservableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableProtocol.swift; sourceTree = "<group>"; };
@@ -85,7 +95,11 @@
 		4A5CB9F326FB28D400235900 /* DecoratorConcreteA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecoratorConcreteA.swift; sourceTree = "<group>"; };
 		4A5CB9F526FB2C2300235900 /* DecoratorConcreteB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecoratorConcreteB.swift; sourceTree = "<group>"; };
 		4A5CB9F726FB2C4E00235900 /* Decorator1_main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decorator1_main.swift; sourceTree = "<group>"; };
-		4A5CB9F926FB2FB700235900 /* DesignPatterns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignPatterns.swift; sourceTree = "<group>"; };
+		4A5CB9F926FB2FB700235900 /* DesignPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignPattern.swift; sourceTree = "<group>"; };
+		4A5CB9FC26FB30D300235900 /* ImageEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageEditor.swift; sourceTree = "<group>"; };
+		4A5CB9FE26FB327500235900 /* ImageDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDecorator.swift; sourceTree = "<group>"; };
+		4A5CBA0026FB330600235900 /* Resizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resizer.swift; sourceTree = "<group>"; };
+		4A5CBA0326FB338100235900 /* BaseFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseFilter.swift; sourceTree = "<group>"; };
 		4A61E31B26F8680B00BAE994 /* Observer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
 		4A61E31D26F8683100BAE994 /* Subject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
 		4A61E31F26F876D900BAE994 /* ObserverConcreteA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserverConcreteA.swift; sourceTree = "<group>"; };
@@ -156,6 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				4A5CB9EC26FB24A700235900 /* Decorator Pattern 1 */,
+				4A5CB9FB26FB30AD00235900 /* Decorator Pattern 2 */,
 			);
 			path = "Decorator Pattern";
 			sourceTree = "<group>";
@@ -171,6 +186,36 @@
 				4A5CB9F726FB2C4E00235900 /* Decorator1_main.swift */,
 			);
 			path = "Decorator Pattern 1";
+			sourceTree = "<group>";
+		};
+		4A5CB9FB26FB30AD00235900 /* Decorator Pattern 2 */ = {
+			isa = PBXGroup;
+			children = (
+				4A5CB9FC26FB30D300235900 /* ImageEditor.swift */,
+				4A5CB9FE26FB327500235900 /* ImageDecorator.swift */,
+				4A5CBA0226FB332500235900 /* Editing */,
+				4A5CBA0526FB33AD00235900 /* Touching */,
+				4A00D79726FC647A00F92661 /* Decorator2_main.swift */,
+			);
+			path = "Decorator Pattern 2";
+			sourceTree = "<group>";
+		};
+		4A5CBA0226FB332500235900 /* Editing */ = {
+			isa = PBXGroup;
+			children = (
+				4A5CBA0026FB330600235900 /* Resizer.swift */,
+			);
+			name = Editing;
+			sourceTree = "<group>";
+		};
+		4A5CBA0526FB33AD00235900 /* Touching */ = {
+			isa = PBXGroup;
+			children = (
+				4A5CBA0326FB338100235900 /* BaseFilter.swift */,
+				4A00D79326FC641C00F92661 /* BlurFilter.swift */,
+				4A00D79526FC644700F92661 /* ColorFilter.swift */,
+			);
+			name = Touching;
 			sourceTree = "<group>";
 		};
 		4A61E31A26F867F200BAE994 /* Observer Pattern 1 */ = {
@@ -298,7 +343,7 @@
 			children = (
 				4AD17DDC26EAFA18007EB6BD /* main.swift */,
 				4A87E51126F2E7A50028F142 /* Helper.swift */,
-				4A5CB9F926FB2FB700235900 /* DesignPatterns.swift */,
+				4A5CB9F926FB2FB700235900 /* DesignPattern.swift */,
 				4A87E54726F32F9F0028F142 /* Strategy Pattern */,
 				4A87E54826F330760028F142 /* Observer Pattern */,
 				4A5CB9EB26FB247A00235900 /* Decorator Pattern */,
@@ -385,9 +430,11 @@
 				4A87E51426F2EC7B0028F142 /* Strategy2_main.swift in Sources */,
 				4A87E51926F2F7150028F142 /* StrategyConcreteA.swift in Sources */,
 				4A87E53926F329AF0028F142 /* SlowSwim.swift in Sources */,
+				4A00D79826FC647A00F92661 /* Decorator2_main.swift in Sources */,
 				4A87E52626F3022D0028F142 /* MagicAttack.swift in Sources */,
 				4A87E51F26F2F8470028F142 /* Strategy1_main.swift in Sources */,
 				4A87E53126F324880028F142 /* SoftQuack.swift in Sources */,
+				4A5CBA0426FB338100235900 /* BaseFilter.swift in Sources */,
 				4A61E31E26F8683100BAE994 /* Subject.swift in Sources */,
 				4A87E53326F324B40028F142 /* LoudQuack.swift in Sources */,
 				4A87E53726F3292D0028F142 /* SwimStrategy.swift in Sources */,
@@ -398,6 +445,7 @@
 				4A87E54F26F331A60028F142 /* Subscriber.swift in Sources */,
 				4A87E52426F301F10028F142 /* StrengthAttack.swift in Sources */,
 				4A87E54626F32D420028F142 /* RubberDuck.swift in Sources */,
+				4A00D79626FC644700F92661 /* ColorFilter.swift in Sources */,
 				4A61E32426F877BF00BAE994 /* Observer1_main.swift in Sources */,
 				4A87E55326F3328B0028F142 /* Store.swift in Sources */,
 				4A61E32226F8773700BAE994 /* ObserverConcreteB.swift in Sources */,
@@ -406,7 +454,7 @@
 				4A5CB9E426FB168700235900 /* ObserverConcrete.swift in Sources */,
 				4A87E51726F2F6D30028F142 /* StrategyProtocol.swift in Sources */,
 				4AD17DED26EAFDED007EB6BD /* CloudStorage.swift in Sources */,
-				4A5CB9FA26FB2FB800235900 /* DesignPatterns.swift in Sources */,
+				4A5CB9FA26FB2FB800235900 /* DesignPattern.swift in Sources */,
 				4A5CB9F226FB252600235900 /* Decorator.swift in Sources */,
 				4A5CB9EA26FB196300235900 /* Observer3_main.swift in Sources */,
 				4A87E52F26F324170028F142 /* QuackStrategy.swift in Sources */,
@@ -419,6 +467,8 @@
 				4A87E54D26F331510028F142 /* Publisher.swift in Sources */,
 				4A87E53B26F329E30028F142 /* FastSwim.swift in Sources */,
 				4A61E32026F876D900BAE994 /* ObserverConcreteA.swift in Sources */,
+				4A00D79426FC641C00F92661 /* BlurFilter.swift in Sources */,
+				4A5CB9FF26FB327500235900 /* ImageDecorator.swift in Sources */,
 				4A87E51D26F2F7930028F142 /* Context.swift in Sources */,
 				4A87E54426F32B800028F142 /* MountainDuck.swift in Sources */,
 				4A5CB9E626FB16AE00235900 /* ObservableProtocol.swift in Sources */,
@@ -426,6 +476,8 @@
 				4A5CB9F826FB2C4E00235900 /* Decorator1_main.swift in Sources */,
 				4A87E52826F3026A0028F142 /* Player.swift in Sources */,
 				4A87E54026F32A480028F142 /* CanNotSwim.swift in Sources */,
+				4A5CB9FD26FB30D300235900 /* ImageEditor.swift in Sources */,
+				4A5CBA0126FB330600235900 /* Resizer.swift in Sources */,
 				4A87E55126F331EB0028F142 /* Customer.swift in Sources */,
 				4AD17DEB26EAFD9B007EB6BD /* DatabaseStorage.swift in Sources */,
 			);

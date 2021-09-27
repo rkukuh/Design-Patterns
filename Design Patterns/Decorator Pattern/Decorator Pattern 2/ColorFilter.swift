@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+class ColorFilter: BaseFilter {
+    
+    override var description: String {
+        return "ColorFilter"
+    }
+}

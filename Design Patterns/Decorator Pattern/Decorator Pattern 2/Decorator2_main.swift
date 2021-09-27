@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+func decorator2() {
+    print("---------- Decorator Pattern #2 ----------")
+    
+    //
+    
+    print()
+}

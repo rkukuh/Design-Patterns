@@ -18,4 +18,5 @@ enum DesignPattern {
     case ObserverPattern_3
     
     case DecoratorPattern_1
+    case DecoratorPattern_2
 }

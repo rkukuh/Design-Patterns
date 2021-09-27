@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+protocol ImageEditor: CustomStringConvertible {
+    func apply() -> String
+}

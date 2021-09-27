@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+class Resizer: ImageDecorator {
+    
+    override var description: String {
+        return "Resizer"
+    }
+}
