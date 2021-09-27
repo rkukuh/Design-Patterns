@@ -26,7 +26,7 @@ Berikut daftar Design Patterns yang akan dibuatkan contoh implementasinya:
 8. Structural Pattern
 9. Template Method Pattern
 10. Composite Pattern
-    - Differences between Decorator and Composite pattern
+    - Perbedaan antara Decorator dan Composite pattern
 11. Iterator Pattern
 12. State Pattern
 13. Null Object Pattern
