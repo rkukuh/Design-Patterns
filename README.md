@@ -1,4 +1,4 @@
-# DesignPatterns.swift
+# Design Patterns in Swift
 
 ## Deskripsi
 
